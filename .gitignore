@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Generated Outputs (ephemeral — not in git)
+outputs/
+saved_videos/
+*.mp4
+*.mp3
+test.mp3
+
+# Feedback Learning Data (ephemeral)
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+tmp/
+temp/
+*.log
+
+# Development / local scripts (not needed in production)
+scripts/
+diagrams/
+showcase/
+export_diagrams.js
+failure_log_viewer.py
+PROJECT_REPORT.md

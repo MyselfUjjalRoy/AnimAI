@@ -1,0 +1,10 @@
+streamlit>=1.28.0
+google-genai>=1.0.0
+manim>=0.18.0
+manim-voiceover>=0.3.7
+gTTS>=2.3.0
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+numpy>=1.24.0
+requests>=2.31.0
+python-dotenv>=1.0.0

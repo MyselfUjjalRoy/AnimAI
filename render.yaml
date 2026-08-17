@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: animai-studio
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: TTS_PROVIDER
+        value: gtts
+      - key: TTS_FALLBACK_PROVIDER
+        value: gtts
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: PYTHONIOENCODING
+        value: utf-8
+    healthCheckPath: /
+    autoDeploy: true
